@@ -1,0 +1,27 @@
+{
+    "name": "ctfang/chinese-word-segmentation",
+    "type": "library",
+    "keywords": [
+        "Chinese Word Segmentation",
+        "Chinese Word",
+        "Chinese"
+    ],
+    "description": "Chinese Word Segmentation,基于词库的中文分词",
+    "license": "Apache-2.0",
+    "authors" : [
+        {
+            "name": "ctfang",
+            "email": "2206582181@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+            "ChineseWordSegmentation\\": "src/"
+        }
+    }
+}
